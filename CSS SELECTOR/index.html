@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>React Boilerplate</title>
+    <style>
+      div {
+        /* element selector */
+        color: red;
+        font-style: oblique;
+      }
+      /* class selector */
+      .red {
+        color: blue;
+        font-style: italic;
+      }
+      /* id selector */
+      #root {
+        color: green;
+        font-style: normal;
+      }
+      /* child selector */
+      article > p {
+        color: rgb(23, 202, 202);
+      }
+      /* descendant selector */
+      .blue p {
+        color: rgb(197, 45, 164);
+      }
+      /* universal selector */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* pseudo selector */
+      a:visited{
+        color: #694646;
+      }
+      a:link{
+        color: #792929;
+      }
+      a:active{
+        background-color: #4422225e;
+        background-color: #d124245e;
+      }
+      a:hover{
+        background-color: #1648ec5e;
+      }
+      p:first-child{
+        color: #77a52c5e;
+      }
+    </style>
+  </head>
+  <body>
+    <div>so,hi how are you?</div>
+    <span class="red">so, you all alive?</span>
+    <main id="root">die ! you peeps.</main>
+    <article>
+      <p>why not dying?</p>
+    </article>
+    <article>
+      <main class="blue">
+        <p>ugh ew!</p>
+      </main>
+    </article>
+
+    <a href="https://www.github.com" >go to github</a>
+    <a href="https://www.linkedin.com2" >go to </a>
+      
+      <div class="pink">
+        <p>hies</p>
+        <p>hies</p>
+      </div>
+  </body>
+</html>
+
+
+<!-- okay so on line 70 - 73 we take p as first child but as p is two 
+ or three times in this code,that why not just this p changes 
+ its color but also 2 more changes its color,and as byies is the sec child 
+ of p so it doest changes its color -->
