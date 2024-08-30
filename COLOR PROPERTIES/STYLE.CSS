@@ -1,0 +1,18 @@
+h1{
+    color:#5d6d7e;
+}
+body{
+    background-color:#abb2b9;
+}
+ol{
+     background-color:#5d6d7e;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#abb2b9;
+    /* color : rgb(77, 86, 86);
+    color: rgba(151, 64, 64, 0.815);
+    color:hsl(204, 64%, 23%); */
+} 
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#5d6d7e;
+}
