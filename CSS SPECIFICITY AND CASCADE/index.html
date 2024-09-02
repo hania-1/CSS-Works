@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Specificity and Cascade</title>
+    <style>
+/* element selector */
+      h1 {
+        background-color: rgb(18, 16, 139);
+      }
+/* class selector */
+      .blue {
+        background-color: blue;
+      }
+
+      .grey {
+        background-color: rgb(150, 137, 137);
+      }
+
+      .red {
+       background-color: rgba(158, 216, 23, 0.781);
+      }
+/* universal selector */
+      * {
+        background-color: rgb(109, 80, 80);
+      }
+/* id and !important selector */
+      #root {
+        background-color: rgb(30, 99, 67) !important;
+      }
+    </style>
+  </head>
+  <body>
+            <!-- inline selector -->
+    <h1 style ="background-color: rgb(18, 16, 139);" class="grey blue red" hi   id="root">hellow.</h1>    
+  </body>
+</html>
